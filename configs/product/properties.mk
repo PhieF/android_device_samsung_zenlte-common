@@ -17,4 +17,4 @@
 
 # Properties
 PRODUCT_COPY_FILES += \
-    device/samsung/zero-common/zero-common.prop:system/vendor/build.prop
+    device/samsung/zenlte-common/zenlte-common.prop:system/vendor/build.prop
