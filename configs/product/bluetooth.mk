@@ -18,3 +18,11 @@
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     libbt-vendor
+	
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bt.bdaddr_path="/efs/bluetooth/bt_addr"
+
+# The new CAF code defaults to MCT HAL, but we
+# need the old H4 HAL for our Broadcom WiFi.
+PRODUCT_PROPERTY_OVERRIDES += \
+    qcom.bluetooth.soc=rome
