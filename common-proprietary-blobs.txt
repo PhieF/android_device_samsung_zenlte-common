@@ -415,6 +415,7 @@ etc/wifi/bcmdhd_mfg.bin
 etc/wifi/bcmdhd_mfg.bin_a1
 etc/wifi/bcmdhd_sta.bin
 etc/wifi/bcmdhd_sta.bin_a1
+etc/wifi/bcmdhd_sta.bin_b1
 etc/wifi/nvram_mfg.txt
 etc/wifi/nvram_mfg.txt_a1
 etc/wifi/nvram_mfg.txt_b85_a1
@@ -426,6 +427,7 @@ etc/wifi/nvram_mfg.txt_wisol_a1
 etc/wifi/nvram_mfg.txt_wisol_b85_a1
 etc/wifi/nvram_net.txt
 etc/wifi/nvram_net.txt_a1
+etc/wifi/nvram_net.txt_b1
 etc/wifi/nvram_net.txt_b85_a1
 etc/wifi/nvram_net.txt_murata
 etc/wifi/nvram_net.txt_murata_a1
@@ -433,3 +435,4 @@ etc/wifi/nvram_net.txt_murata_b85_a1
 etc/wifi/nvram_net.txt_wisol
 etc/wifi/nvram_net.txt_wisol_a1
 etc/wifi/nvram_net.txt_wisol_b85_a1
+etc/wifi/nvram_net.txt_semco3rd_b1
