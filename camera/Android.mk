@@ -12,6 +12,10 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_C_INCLUDES += \
     system/core/include \
+    system/media/camera/include \
+    frameworks/native/libs/arect/include \
+    frameworks/native/libs/nativebase/include \
+    frameworks/native/libs/nativewindow/include \
     system/media/camera/include
 
 LOCAL_MODULE_RELATIVE_PATH := hw
