@@ -121,8 +121,8 @@ BLOCK_BASED_OTA := true
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
 # Hardware
-BOARD_HARDWARE_CLASS += device/samsung/zenlte-common/cmhw
-BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/zenlte-common/lineagehw
+BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
 
 # WIFI
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
