@@ -1,3 +1,4 @@
+
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
@@ -6,20 +7,12 @@ LOCAL_SRC_FILES := \
     Camera2Wrapper.cpp \
     Camera3Wrapper.cpp
 
-LOCAL_STATIC_LIBRARIES := libbase libarect
 LOCAL_SHARED_LIBRARIES := \
-    libhardware liblog libcamera_client libutils libcutils \
-    android.hidl.token@1.0-utils \
-    android.hardware.graphics.bufferqueue@1.0
+    libhardware liblog libcamera_client libutils libcutils
 
 LOCAL_C_INCLUDES += \
     system/core/include \
-    system/media/camera/include \
-	frameworks/native/libs/arect/include \
-	frameworks/native/libs/nativebase/include \
-	frameworks/native/libs/nativewindow/include
-	
-LOCAL_HEADER_LIBRARIES := libnativebase_headers
+    system/media/camera/include
 
 LOCAL_MODULE_RELATIVE_PATH := hw
 
