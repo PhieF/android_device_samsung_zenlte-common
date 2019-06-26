@@ -18,6 +18,8 @@ LOCAL_C_INCLUDES += \
 	frameworks/native/libs/arect/include \
 	frameworks/native/libs/nativebase/include \
 	frameworks/native/libs/nativewindow/include
+	
+LOCAL_HEADER_LIBRARIES := libnativebase_headers
 
 LOCAL_MODULE_RELATIVE_PATH := hw
 
