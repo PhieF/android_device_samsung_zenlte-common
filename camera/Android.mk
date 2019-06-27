@@ -8,7 +8,9 @@ LOCAL_SRC_FILES := \
     Camera3Wrapper.cpp
 
 LOCAL_SHARED_LIBRARIES := \
-    libhardware liblog libcamera_client libutils libcutils
+    libhardware liblog libcamera_client libutils libcutils \
+    android.hidl.token@1.0-utils \
+    android.hardware.graphics.bufferqueue@1.0
 
 LOCAL_C_INCLUDES += \
     system/core/include \
